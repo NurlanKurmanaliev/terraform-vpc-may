@@ -9,9 +9,7 @@ resource "aws_vpc" "main" {
     Name = var.vpc_name 
   }
 
-  tags = {
-    Name = "my-vpc"
-  }
+  
 }
 
 resource "aws_subnet" "main" {
